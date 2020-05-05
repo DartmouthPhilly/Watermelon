@@ -1,3 +1,4 @@
+
 namespace watermelon.db.data;
 
 context PurchaseOrder 
@@ -18,4 +19,3 @@ context PurchaseOrder
 		STATUS			as "Status",
 		STATUSAGAIN		as "StatusAgain"
 	};
-};
