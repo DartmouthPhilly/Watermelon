@@ -8,7 +8,6 @@ context PurchaseOrder
 		AMOUNT : Decimal(15, 2);
 		STATUS : String(1);
 	};
-    
     define view ItemView as
 	select from Items
 	{
