@@ -9,7 +9,6 @@ context PurchaseOrder
 		STATUS : String(1);
 		STATUSAGAIN: String(1);
 	};
-    
     define view ItemView as
 	select from Items
 	{
