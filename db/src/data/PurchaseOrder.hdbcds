@@ -8,7 +8,6 @@ context PurchaseOrder
 		key PURCHASEORDERID : Integer;
 		AMOUNT : Decimal(15, 2);
 		STATUS : String(1);
-		STATUSAGAIN: String(1);
 	};
     
     define view ItemView as
@@ -16,6 +15,6 @@ context PurchaseOrder
 	{
 		PURCHASEORDERID as "PurchaseOrderItemId",
 		AMOUNT          as "Amount",
-		STATUS			as "Status",
-		STATUSAGAIN		as "StatusAgain"
+		STATUS			as "Status"
 	};
+};
